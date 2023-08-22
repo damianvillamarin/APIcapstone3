@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available API Pages
+/bicycles/   get, listado de bicicletas
+/bicycle/{id}   get, datos de la bicicleta id
+/bicycle/post, registrar la bicicleta, se recible el id generado
+/bicycle/{id} put, modifica la bicicleta con codigo id
+/signin   loguearse, devuelve el token
+/signup  registrar un nuevo usuario
+/signout    desconectarse
+/inventario
+
 ## Available Scripts
 
 In the project directory, you can run:
